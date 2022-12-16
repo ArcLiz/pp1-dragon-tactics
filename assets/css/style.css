@@ -11,6 +11,9 @@ html {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+body {
+    background-color: #194864;
+}
 a {
     text-decoration: none;
 }
@@ -72,4 +75,45 @@ nav {
 }
 #menu-contact {
     color: #BDF6F7;
+}
+
+/* Index Content ---------------------------- */
+#welcome {
+    position: relative;
+}
+#home-img {
+    background: #194864 url('../media/heroimage.png') no-repeat right bottom;
+    width: 100vw;
+    height: 80vh;
+}
+
+#img-overlay {
+    width: 70vw;
+    background-color: rgba(153, 194, 218, 0.7);
+    position: absolute;
+    bottom: 10%;
+    right: 15%;
+    padding: 10px;
+}
+
+#img-overlay h2 {
+    font-size: 7vw;
+}
+#img-overlay h3 {
+    font-size: 5vw;
+    padding-left: 5px;
+}
+
+#img-overlay p {
+    text-align: center;
+    padding: 20px;
+}
+
+@media screen and (min-width: 470px) {
+    #img-overlay h2 {
+        font-size: 30px
+    }
+    #img-overlay h3 {
+        font-size: 25px
+    }
 }
