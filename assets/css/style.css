@@ -1,5 +1,5 @@
 /* Basics */
-@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital@1&family=Quicksand:wght@500&family=Source+Sans+Pro:wght@300&family=Anton&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&family=Playfair+Display:wght@400;500;700&family=Righteous&family=Source+Sans+Pro:wght@300;400;700&family=Quicksand:wght@500&display=swap');
 
 html {
     box-sizing: border-box;
@@ -14,6 +14,10 @@ html {
 body {
     background-color: #194864;
 }
+
+ul li {
+    font-size: 3vw;
+}
 a {
     text-decoration: none;
 }
@@ -22,6 +26,20 @@ a {
 
 h1, h2, h3 {
     font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+    font-size: 7vw;
+}
+
+h3 {
+    font-size: 5vw;
+    padding-left: 5px;
+}
+
+p {
+    font-size: 3vw;
+    padding-top: 5px;
 }
 
 /* Navbar ---------------------------- */
@@ -52,7 +70,8 @@ nav {
     text-decoration: none;
     padding: 0 5px;
     color: #1C1F36;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
 }
 .menu-item:hover {
     border-bottom: 1px solid #BDF6F7;
@@ -85,6 +104,7 @@ nav {
     background: #194864 url('../media/heroimage.png') no-repeat right bottom;
     width: 100vw;
     height: 80vh;
+    background-size: auto 100%;
 }
 
 #img-overlay {
@@ -96,24 +116,51 @@ nav {
     padding: 10px;
 }
 
-#img-overlay h2 {
-    font-size: 7vw;
-}
-#img-overlay h3 {
-    font-size: 5vw;
-    padding-left: 5px;
-}
-
 #img-overlay p {
     text-align: center;
     padding: 20px;
 }
 
+/* About Section -----------------------*/
+
+#about {
+    display: flex;
+    flex-direction: row;
+}
+
+#skills {
+    background-color: #427DA0;
+    padding: 10px;
+    flex: 33%;
+    border-top: 1px double #BDF6F7;
+}
+
+#dragon-tactics {
+    background-color: #194864;
+    padding: 10px;
+    flex: 66%;
+    border-top: 1px double #BDF6F7;
+    color: #BDF6F7;
+}
+
 @media screen and (min-width: 470px) {
-    #img-overlay h2 {
-        font-size: 30px
+    h2 {
+        font-size: 30px;
     }
-    #img-overlay h3 {
-        font-size: 25px
+    h3 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 13px;
+    }
+    ul li {
+        font-size: 13px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    #about {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    }
