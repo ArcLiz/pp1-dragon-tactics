@@ -135,12 +135,37 @@ nav {
     border-top: 1px double #BDF6F7;
 }
 
+#skills > ul {
+    list-style-position: inside;
+}
+
 #dragon-tactics {
     background-color: #194864;
     padding: 10px;
     flex: 66%;
     border-top: 1px double #BDF6F7;
     color: #BDF6F7;
+}
+/* Footer ---------------------------------*/
+
+footer {
+    background-color: #427DA0;
+    padding: 5px 10px;
+    border-top: 1px solid #BDF6F7
+}
+
+.socials {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 10px 2%;
+    color: #0a212e;
 }
 
 @media screen and (min-width: 470px) {
@@ -151,10 +176,10 @@ nav {
         font-size: 25px;
     }
     p {
-        font-size: 13px;
+        font-size: 16px;
     }
     ul li {
-        font-size: 13px;
+        font-size: 16px;
     }
 }
 
