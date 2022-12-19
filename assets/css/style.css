@@ -7,7 +7,7 @@ html {
 
 * {
     margin: 0;
-    padding: 0;
+    padding: 0; 
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -18,6 +18,7 @@ body {
 ul li {
     font-size: 3vw;
 }
+
 a {
     text-decoration: none;
 }
@@ -151,6 +152,7 @@ nav {
 .form-section {
     display: flex;
     justify-content: center;
+    padding: 150px;
 }
 
 .signup-form {
@@ -228,6 +230,51 @@ nav {
     background-color: #f7bdbd;
     color: #a02424;
     border-color: #a02424
+}
+
+/* Services page */
+
+#services-content p {
+    padding-bottom: 10px;
+}
+
+#services-content ul {
+    padding-bottom: 15px;
+}
+
+.courses-offers {
+    padding: 100px 0;
+    margin: auto;
+    width: 85vw;
+}
+
+table, th, td {
+    border: 1px solid #fff;
+    border-collapse: collapse;
+  }
+  
+  table {
+    width: 80vw;
+    background-color: #427DA0;
+    margin: auto;
+  }
+  
+  th {
+    text-align: start;
+    padding: 5px 10px;
+  }
+  
+  td {
+    padding: 5px 10px;
+  }
+
+  .recruitment {
+    margin: auto;
+    width: 85vw;
+  }
+
+  .recruitment > ul {
+    list-style-position: inside;
 }
 
 /* Footer ---------------------------------*/
