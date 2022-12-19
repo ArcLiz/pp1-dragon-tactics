@@ -146,12 +146,97 @@ nav {
     border-top: 1px double #BDF6F7;
     color: #BDF6F7;
 }
+/* CONTACT FORM */
+
+.form-section {
+    display: flex;
+    justify-content: center;
+}
+
+.signup-form {
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+}
+
+.signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.selectbox {
+  width: 100%;
+  height: 25px;
+  margin: 3px 0 20px 0;
+}
+
+.textarea {
+  width: 100%;
+  height: 100%;
+  margin: 3px 0 20px 0;  
+}
+
+#formbuttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.join-button {
+    border-radius: 25px;
+    padding: 15px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #427DA0;
+    border: 0 solid;
+    color: #BDF6F7;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.reset-button {
+    margin-right: 20px;
+    border-radius: 25px;
+    padding: 15px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #a02424;
+    border: 0 solid;
+    color: #f7bdbd;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.join-button:hover {
+    background-color: #BDF6F7;
+    color: #427DA0;
+    border-color: #427DA0
+}
+
+.reset-button:hover {
+    background-color: #f7bdbd;
+    color: #a02424;
+    border-color: #a02424
+}
+
 /* Footer ---------------------------------*/
 
 footer {
     background-color: #427DA0;
     padding: 5px 10px;
-    border-top: 1px solid #BDF6F7
+    border-top: 1px solid #BDF6F7;
+    bottom: 0;
 }
 
 .socials {

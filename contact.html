@@ -21,6 +21,31 @@
             </ul>
         </nav>
     </header>
+    <!-- Contact Form and things -->
+    <section class="form-section">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2>Let's get talking!</h2>
+            <label for="fname">What should I call you?</label>
+            <input id="fname" name="full_name" type="text" class="text-input" required placeholder="Enter your Full Name">
+
+            <label for="email">How do I reach you?</label>
+            <input type="email" id="email" name="email_address" class="text-input" required placeholder="Enter your e-mail address">     
+            <label for="reason">Why do you need me?</label>
+            <select name="creason" id="creason" class="selectbox" placeholder="Select from dropdown.." required>
+              <option value="" disabled selected hidden>Select from dropdown..</option>
+              <option value="dragontraining">I need help training my dragon</option>
+              <option value="recruitment">I want to be a Dragon Trainer!</option>
+              <option value="other">I really just need a friend</option>
+            </select>  
+          
+          <label for="message">What's up, duck?</label>
+          <textarea class="textarea" id="message" name="message" rows="4" cols="20" placeholder="Enter your epic message here"></textarea>
+          <div id="formbuttons">
+            <input class="reset-button" type="reset" value="Reset">
+            <input class="join-button" type="submit" value="Ready, Set, Send">
+          </div>
+        </form>
+    </section>
     <!-- Start Footer -->
     <footer>
         <div class="socials">
