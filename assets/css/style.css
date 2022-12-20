@@ -1,52 +1,20 @@
-/* Basics */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&family=Playfair+Display:wght@400;500;700&family=Righteous&family=Source+Sans+Pro:wght@300;400;700&family=Quicksand:wght@500&display=swap');
+/* Basics ---------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Spinnaker&family=Unica+One&display=swap');
 
-html {
-    box-sizing: border-box;
-}
-
-* {
-    margin: 0;
-    padding: 0; 
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-body {
-    background-color: #194864;
-}
-
-ul li {
-    font-size: 3vw;
-}
-
-a {
-    text-decoration: none;
-}
-
-/* General --------------------------- */
-
-h1, h2, h3 {
-    font-family: 'Quicksand', sans-serif;
-}
-
-h2 {
-    font-size: 7vw;
-}
-
-h3 {
-    font-size: 5vw;
-    padding-left: 5px;
-}
-
-p {
-    font-size: 3vw;
-    padding-top: 5px;
-}
+html { box-sizing: border-box;}
+body { background-color: #194864; margin: 0;}
+* { font-family: 'Lato', sans-serif;}
+h1, h2, h3 { font-family: 'Unica One', cursive; font-weight: normal; margin: 0;}
+h1 { font-size: 2.5em;}
+h2 { font-size: 2.2em;}
+h3 { font-size: 1.8em;}
+a { text-decoration: none;}
+.div-padding { padding: 20px;}
+.bottom-padding { padding-bottom: 10px;}
 
 /* Navbar ---------------------------- */
-
 nav {
-    background-color: #427DA0;
+    background-color: #a0cbe4;
     padding: 0 20px;
 }
 
@@ -54,50 +22,65 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
 }
 
+.navbar ul {
+    padding-inline-start: 0;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
 .site-menu {
     display: flex;
     align-items: center;
     list-style: none;
 }
 
-.menu-item {
+/* .menu-item {
     text-align: center;
-}
+} */
 
 .menu-item a {
-    display: inline-block;
-    text-decoration: none;
     padding: 0 5px;
     color: #1C1F36;
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
+    font-family: 'Unica One', cursive;
+    font-size: 1.5em;
 }
 .menu-item:hover {
-    border-bottom: 1px solid #BDF6F7;
+    border-bottom: 1px solid #1C1F36;
     vertical-align: top;
-}
-.menu-item:hover a {
-    color: #BDF6F7;
 }
 
 .active {
-    color: #BDF6F7;
-    border-bottom: 1px solid #BDF6F7;
+    border-bottom: 1px solid #1C1F36;
+    border-top: 1px solid #1C1F36;
     vertical-align: top;
 }
-#menu-home {
-    color: #BDF6F7;
-}
-#menu-services {
-    color: #BDF6F7;
-}
-#menu-contact {
-    color: #BDF6F7;
+
+/* Footer ---------------------------- */
+
+footer {
+    background-color: #0c222f;
+    padding: 5px 10px;
+    bottom: 0;
+    color: #a0cbe4;
 }
 
-/* Index Content ---------------------------- */
+.socials {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 10px 2%;
+    color: #a0cbe4;
+}
+
+/* Index  ---------------------------- */
 #welcome {
     position: relative;
 }
@@ -119,13 +102,13 @@ nav {
     background-color: rgba(153, 194, 218, 0.7);
     position: absolute;
     bottom: 10%;
-    right: 15%;
-    padding: 10px;
+    right: 12.5vw;
+    /* padding: 10px; */
 }
 
 #img-overlay p {
     text-align: center;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 #img-overlay button {
@@ -153,7 +136,7 @@ nav {
     color: #1C1F36;
 }
 
-/* About Section -----------------------*/
+/* About */
 
 #about {
     display: flex;
@@ -161,10 +144,10 @@ nav {
 }
 
 #skills {
-    background-color: #427DA0;
-    padding: 10px;
+    background-color: #2e414c;
+    /* padding: 10px; */
     flex: 33%;
-    border-top: 1px double #BDF6F7;
+    /* border-top: 1px double #BDF6F7; */
 }
 
 #skills > ul {
@@ -172,10 +155,10 @@ nav {
 }
 
 #dragon-tactics {
-    background-color: #194864;
-    padding: 10px;
+    background-color: #2e414c;
+    /* padding: 10px; */
     flex: 66%;
-    border-top: 1px double #BDF6F7;
+    /* border-top: 1px double #BDF6F7; */
     color: #BDF6F7;
 }
 /* CONTACT FORM */
@@ -183,7 +166,7 @@ nav {
 .form-section {
     display: flex;
     justify-content: center;
-    padding: 150px;
+    height: 85vh;
 }
 
 .signup-form {
@@ -196,7 +179,7 @@ nav {
 
 .signup-form > h2 {
     color: #fafafa;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .text-input {
@@ -230,7 +213,7 @@ nav {
     border-radius: 25px;
     padding: 15px;
     text-align: center;
-    font-size: 100%;
+    /* font-size: 100%; */
     background-color: #427DA0;
     border: 0 solid;
     color: #BDF6F7;
@@ -243,7 +226,7 @@ nav {
     border-radius: 25px;
     padding: 15px;
     text-align: center;
-    font-size: 100%;
+    /* font-size: 100%; */
     background-color: #a02424;
     border: 0 solid;
     color: #f7bdbd;
@@ -263,15 +246,15 @@ nav {
     border-color: #a02424
 }
 
-/* Services page */
+/* Services page ---------------------------- */
 
-#services-content p {
+/* #services-content p {
     padding-bottom: 10px;
 }
 
 #services-content ul {
     padding-bottom: 15px;
-}
+} */
 
 .courses-offers {
     /* padding: 100px 0; */
@@ -308,30 +291,7 @@ table, th, td {
     list-style-position: inside;
 }
 
-/* Footer ---------------------------------*/
-
-footer {
-    background-color: #427DA0;
-    padding: 5px 10px;
-    border-top: 1px solid #BDF6F7;
-    bottom: 0;
-}
-
-.socials {
-    text-align: center;
-}
-
-.social-networks > li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 10px 2%;
-    color: #0a212e;
-}
-
-@media screen and (min-width: 470px) {
+/* @media screen and (min-width: 470px) {
     h2 {
         font-size: 30px;
     }
@@ -344,7 +304,7 @@ footer {
     ul li {
         font-size: 16px;
     }
-}
+} */
 
 @media screen and (max-width: 768px) {
     #about {
