@@ -11,6 +11,7 @@ h3 { font-size: 1.8em;}
 a { text-decoration: none;}
 .div-padding { padding: 20px;}
 .bottom-padding { padding-bottom: 10px;}
+.max-width { max-width: 1000px;}
 
 /* Navbar ---------------------------- */
 nav {
