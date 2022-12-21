@@ -12,7 +12,8 @@ a { text-decoration: none;}
 .div-padding { padding: 20px;}
 .bottom-padding { padding-bottom: 10px;}
 .max-width { max-width: 1000px;}
-.vertical-break {padding: 5px 0;}
+.vertical-break { padding: 5px 0;}
+.center-text { text-align: center;}
 /* Navbar ---------------------------- */
 nav {
     background-color: #a0cbe4;
@@ -87,8 +88,8 @@ footer {
 }
 #home-img {
     background: #194864 url('../media/heroimage.png') no-repeat right bottom;
-    width: 100vw;
-    height: 95vh;
+    /* width: 100vw; */
+    height: 80vh;
     background-size: auto 100%;
 }
 
@@ -112,29 +113,42 @@ footer {
     /* padding: 20px; */
 }
 
-#img-overlay button {
+#welcome button {
     border-radius: 25px;
     width: 125px;
     margin: auto;
     padding: 15px;
     text-align: center;
     font-size: 100%;
-    background-color: #427DA0;
-    border: 0 solid;
-    color: #BDF6F7;
+    background-color: #84B2CD;
+    border: 0 solid #1C1F36;
+    color: #1C1F36;
     transition-duration: 0.4s;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-#img-overlay button:hover {
-    background-color: #BDF6F7;
-    color: #427DA0;
-    border-color: #427DA0
+#welcome button:hover {
+    border-radius: 25px;
+    width: 125px;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #1C1F36;
+    border: 0 solid #84B2CD;
+    color: #84B2CD;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-#img-overlay button a {
+#welcome button a {
     text-decoration: none;
     color: #1C1F36;
+}
+
+#welcome button a:hover {
+    text-decoration: none;
+    color: #84B2CD;
 }
 
 /* About */
@@ -175,7 +189,13 @@ footer {
     text-decoration: none;
     color: #1C1F36;
 }
-/* CONTACT FORM */
+/* CONTACT -------------------------------  */
+#contact-bg {
+    background: #194864 url('../media/heroimage-mirrored.png') no-repeat left bottom;
+    /* width: 100vw; */
+    height: 80vh;
+    background-size: auto 100%;
+}
 
 .form-section {
     display: flex;
@@ -261,7 +281,6 @@ footer {
 }
 
 /* Services page ---------------------------- */
-
 /* #services-content p {
     padding-bottom: 10px;
 }
