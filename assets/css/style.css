@@ -1,19 +1,80 @@
 /* Basics ---------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Spinnaker&family=Unica+One&display=swap');
 
-html { box-sizing: border-box;}
-body { background-color: #a0cbe4; margin: 0;}
-* { font-family: 'Lato', sans-serif;}
-h1, h2, h3 { font-family: 'Unica One', cursive; font-weight: normal; margin: 0;}
-h1 { font-size: 2.5em;}
-h2 { font-size: 2.2em;}
-h3 { font-size: 1.8em;}
-a { text-decoration: none;}
-.div-padding { padding: 20px;}
-.bottom-padding { padding-bottom: 10px;}
-.max-width { max-width: 1000px;}
-.vertical-break { padding: 5px 0;}
-.center-text { text-align: center;}
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #a0cbe4;
+    margin: 0;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Unica One', cursive;
+    font-weight: normal;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2.2em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.div-padding {
+    padding: 20px;
+}
+
+.bottom-padding {
+    padding-bottom: 10px;
+}
+
+.max-width {
+    max-width: 1000px;
+}
+
+.vertical-break {
+    padding: 5px 0;
+}
+
+.center-text {
+    text-align: center;
+}
+
+html, body {
+    height: 100%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    flex: 1 0 auto;
+  }
+  footer {
+    flex-shrink: 0;
+  }
+
 /* Navbar ---------------------------- */
 nav {
     background-color: #a0cbe4;
@@ -32,15 +93,12 @@ nav {
     margin-bottom: 5px;
     margin-top: 0;
 }
+
 .site-menu {
     display: flex;
     align-items: center;
     list-style: none;
 }
-
-/* .menu-item {
-    text-align: center;
-} */
 
 .menu-item a {
     padding: 0 5px;
@@ -48,6 +106,7 @@ nav {
     font-family: 'Unica One', cursive;
     font-size: 1.5em;
 }
+
 .menu-item:hover {
     border-bottom: 1px solid #1C1F36;
     vertical-align: top;
@@ -68,15 +127,11 @@ footer {
     color: #a0cbe4;
 }
 
-.socials {
-    text-align: center;
-}
-
-.socials ul {
+footer ul {
     padding: 0;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -90,6 +145,7 @@ footer {
 #welcome {
     position: relative;
 }
+
 #home-img {
     background: #194864 url('../media/heroimage.png') no-repeat right bottom;
     /* width: 100vw; */
@@ -109,17 +165,15 @@ footer {
     position: absolute;
     bottom: 10%;
     right: 12.5vw;
-    /* padding: 10px; */
 }
 
 #img-overlay p {
     text-align: center;
-    /* padding: 20px; */
 }
 
-#welcome button {
+.blue-button {
     border-radius: 25px;
-    width: 125px;
+    /* width: 125px; */
     margin: auto;
     padding: 15px;
     text-align: center;
@@ -128,12 +182,12 @@ footer {
     border: 0 solid #1C1F36;
     color: #1C1F36;
     transition-duration: 0.4s;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#welcome button:hover {
+.blue-button:hover {
     border-radius: 25px;
-    width: 125px;
+    /* width: 125px; */
     margin: auto;
     padding: 15px;
     text-align: center;
@@ -142,15 +196,15 @@ footer {
     border: 0 solid #84B2CD;
     color: #84B2CD;
     transition-duration: 0.4s;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#welcome button a {
+.blue-button a {
     text-decoration: none;
     color: #1C1F36;
 }
 
-#welcome button a:hover {
+.blue-button a:hover {
     text-decoration: none;
     color: #84B2CD;
 }
@@ -173,6 +227,7 @@ footer {
     width: 280px;
     margin: auto;
 }
+
 #skills {
     background-color: #a0cbe4;
     /* padding: 10px; */
@@ -180,7 +235,7 @@ footer {
     /* border-top: 1px double #BDF6F7; */
 }
 
-#skills > ul {
+#skills>ul {
     list-style-position: inside;
 }
 
@@ -193,6 +248,7 @@ footer {
     text-decoration: none;
     color: #1C1F36;
 }
+
 /* CONTACT -------------------------------  */
 #contact-bg {
     background: #194864 url('../media/heroimage-mirrored.png') no-repeat left bottom;
@@ -215,7 +271,7 @@ footer {
     padding: 30px;
 }
 
-.signup-form > h2 {
+.signup-form>h2 {
     color: #fafafa;
     /* margin-bottom: 20px; */
 }
@@ -231,35 +287,22 @@ footer {
 }
 
 .selectbox {
-  width: 100%;
-  height: 25px;
-  margin: 3px 0 20px 0;
+    width: 100%;
+    height: 25px;
+    margin: 3px 0 20px 0;
 }
 
 .textarea {
-  width: 100%;
-  height: 100%;
-  margin: 3px 0 20px 0;  
+    width: 100%;
+    height: 100%;
+    margin: 3px 0 20px 0;
 }
 
 #formbuttons {
-  display: flex;
-  justify-content: flex-end;
+    float: right;
 }
 
-.contact-button {
-    border-radius: 25px;
-    padding: 15px;
-    text-align: center;
-    /* font-size: 100%; */
-    background-color: #427DA0;
-    border: 0 solid;
-    color: #BDF6F7;
-    transition-duration: 0.4s;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-
-.reset-button {
+.red-button {
     margin-right: 20px;
     border-radius: 25px;
     padding: 15px;
@@ -269,16 +312,10 @@ footer {
     border: 0 solid;
     color: #f7bdbd;
     transition-duration: 0.4s;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.contact-button:hover {
-    background-color: #BDF6F7;
-    color: #427DA0;
-    border-color: #427DA0
-}
-
-.reset-button:hover {
+.red-button:hover {
     background-color: #f7bdbd;
     color: #a02424;
     border-color: #a02424
@@ -306,14 +343,6 @@ footer {
     text-decoration: underline double 1px;
 }
 
-/* #services-content p {
-    padding-bottom: 10px;
-}
-
-#services-content ul {
-    padding-bottom: 15px;
-} */
-
 .courses-offers {
     /* padding: 100px 0; */
     margin: auto;
@@ -324,32 +353,35 @@ footer {
     text-decoration: none;
     color: #1C1F36;
 }
-table, th, td {
+
+table,
+th,
+td {
     border: 1px solid #fff;
     border-collapse: collapse;
-  }
-  
-  table {
+}
+
+table {
     width: 80vw;
     background-color: #427DA0;
     margin: auto;
-  }
-  
-  th {
+}
+
+th {
     text-align: start;
     padding: 5px 10px;
-  }
-  
-  td {
-    padding: 5px 10px;
-  }
+}
 
-  .recruitment {
+td {
+    padding: 5px 10px;
+}
+
+.recruitment {
     margin: auto;
     width: 85vw;
-  }
+}
 
-  .recruitment > ul {
+.recruitment>ul {
     list-style-position: inside;
 }
 
@@ -373,4 +405,4 @@ table, th, td {
         display: flex;
         flex-direction: column-reverse;
     }
-    }
+}

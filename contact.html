@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <title>Dragon Tactics - Contact Me</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <header>
         <!-- Navigation and Menu -->
@@ -22,52 +24,63 @@
         </nav>
     </header>
     <!-- Contact Form and things -->
-    <div id="contact-bg">
-    <section class="form-section">
-        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
-            <h2 class="bottom-padding">Let's get talking!</h2>
-            <label for="fname">What should I call you?</label>
-            <input id="fname" name="full_name" type="text" class="text-input" required placeholder="Enter your Full Name">
+    <main>
+        <div id="contact-bg">
+            <section class="form-section">
+                <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+                    <h2 class="bottom-padding">Let's get talking!</h2>
+                    <label for="fname">What should I call you?</label>
+                    <input id="fname" name="full_name" type="text" class="text-input" required
+                        placeholder="Enter your Full Name">
 
-            <label for="email">How do I reach you?</label>
-            <input type="email" id="email" name="email_address" class="text-input" required placeholder="Enter your e-mail address">     
-            <label for="reason">Why do you need me?</label>
-            <select name="creason" id="creason" class="selectbox" placeholder="Select from dropdown.." required>
-              <option value="" disabled selected hidden>Select from dropdown..</option>
-              <option value="dragontraining">I need help training my dragon</option>
-              <option value="recruitment">I want to be a Dragon Trainer!</option>
-              <option value="other">I really just need a friend</option>
-            </select>  
-          
-          <label for="message">What's up, duck?</label>
-          <textarea class="textarea" id="message" name="message" rows="4" cols="20" placeholder="Enter your epic message here" required></textarea>
-          <div id="formbuttons">
-            <input class="reset-button" type="reset" value="Reset">
-            <input class="contact-button" type="submit" value="Ready, Set, Send">
-          </div>
-        </form>
-    </div>
-    </section>
+                    <label for="email">How do I reach you?</label>
+                    <input type="email" id="email" name="email_address" class="text-input" required
+                        placeholder="Enter your e-mail address">
+                    <label for="creason">Why do you need me?</label>
+                    <select name="creason" id="creason" class="selectbox" placeholder="Select from dropdown.." required>
+                        <option value="" disabled selected hidden>Select from dropdown..</option>
+                        <option value="dragontraining">I need help training my dragon</option>
+                        <option value="recruitment">I want to be a Dragon Trainer!</option>
+                        <option value="other">I really just need a friend</option>
+                    </select>
+
+                    <label for="message">What's up, duck?</label>
+                    <textarea class="textarea" id="message" name="message" rows="4" cols="20"
+                        placeholder="Enter your epic message here" required></textarea>
+                    <div id="formbuttons">
+                        <input class="red-button" type="reset" value="Reset">
+                        <input class="blue-button" type="submit" value="Ready, Set, Send">
+                    </div>
+                </form>
+        </div>
+        </section>
+    </main>
     <!-- Start Footer -->
     <footer>
-        <div class="socials">
+        <div class="center-text">
             <p>Stay in touch and connect on social media!</p>
             <ul class="social-networks">
                 <li>
-                    <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://facebook.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)"><i
+                            class="fa-brands fa-facebook"></i></a>
                 </li>
                 <li>
-                    <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://youtube.com" target="_blank" rel="noopener"
+                        aria-label="Visit our YouTube page (opens in a new tab)"><i
+                            class="fa-brands fa-youtube"></i></a>
                 </li>
                 <li>
-                    <a href="https://tiktok.com" target="_blank" rel="noopener" aria-label="Visit our TikTok page (opens in a new tab)"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://tiktok.com" target="_blank" rel="noopener"
+                        aria-label="Visit our TikTok page (opens in a new tab)"><i class="fa-brands fa-tiktok"></i></a>
                 </li>
             </ul>
         </div>
     </footer>
 
     <!--Font Awesome-->
-<script src="https://kit.fontawesome.com/9289bd467b.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9289bd467b.js" crossorigin="anonymous"></script>
 
 </body>
+
 </html>
