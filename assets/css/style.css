@@ -72,6 +72,10 @@ footer {
     text-align: center;
 }
 
+.socials ul {
+    padding: 0;
+}
+
 .social-networks > li {
     display: inline;
 }
@@ -193,7 +197,7 @@ footer {
 #contact-bg {
     background: #194864 url('../media/heroimage-mirrored.png') no-repeat left bottom;
     /* width: 100vw; */
-    height: 80vh;
+    height: 90vh;
     background-size: auto 100%;
 }
 
@@ -205,7 +209,7 @@ footer {
 
 .signup-form {
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(60, 60, 60, 0.8);
     max-width: 400px;
     margin: auto;
     padding: 30px;
@@ -243,7 +247,7 @@ footer {
   justify-content: flex-end;
 }
 
-.join-button {
+.contact-button {
     border-radius: 25px;
     padding: 15px;
     text-align: center;
@@ -268,7 +272,7 @@ footer {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-.join-button:hover {
+.contact-button:hover {
     background-color: #BDF6F7;
     color: #427DA0;
     border-color: #427DA0
@@ -281,6 +285,27 @@ footer {
 }
 
 /* Services page ---------------------------- */
+
+#services-bg {
+    background: #194864 url('../media/services-bg.webp') no-repeat center;
+    /* width: 100vw; */
+    height: 10vh;
+    background-size: auto 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.courses-offers h3 {
+    /* font-weight: bold; */
+    text-decoration: underline double 1px;
+}
+
+.recruitment h3 {
+    /* font-weight: bold; */
+    text-decoration: underline double 1px;
+}
+
 /* #services-content p {
     padding-bottom: 10px;
 }
@@ -295,6 +320,10 @@ footer {
     width: 85vw;
 }
 
+.courses-offers a {
+    text-decoration: none;
+    color: #1C1F36;
+}
 table, th, td {
     border: 1px solid #fff;
     border-collapse: collapse;
