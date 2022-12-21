@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Spinnaker&family=Unica+One&display=swap');
 
 html { box-sizing: border-box;}
-body { background-color: #194864; margin: 0;}
+body { background-color: #a0cbe4; margin: 0;}
 * { font-family: 'Lato', sans-serif;}
 h1, h2, h3 { font-family: 'Unica One', cursive; font-weight: normal; margin: 0;}
 h1 { font-size: 2.5em;}
@@ -12,7 +12,7 @@ a { text-decoration: none;}
 .div-padding { padding: 20px;}
 .bottom-padding { padding-bottom: 10px;}
 .max-width { max-width: 1000px;}
-
+.vertical-break {padding: 5px 0;}
 /* Navbar ---------------------------- */
 nav {
     background-color: #a0cbe4;
@@ -142,10 +142,21 @@ footer {
 #about {
     display: flex;
     flex-direction: row;
+    max-width: 1200px;
+    margin: auto;
 }
 
+#about h3 {
+    /* font-weight: bold; */
+    text-decoration: underline double 1px;
+}
+
+#selfie {
+    width: 280px;
+    margin: auto;
+}
 #skills {
-    background-color: #2e414c;
+    background-color: #a0cbe4;
     /* padding: 10px; */
     flex: 33%;
     /* border-top: 1px double #BDF6F7; */
@@ -156,11 +167,13 @@ footer {
 }
 
 #dragon-tactics {
-    background-color: #2e414c;
-    /* padding: 10px; */
+    background-color: #a0cbe4;
     flex: 66%;
-    /* border-top: 1px double #BDF6F7; */
-    color: #BDF6F7;
+}
+
+#dragon-tactics a {
+    text-decoration: none;
+    color: #1C1F36;
 }
 /* CONTACT FORM */
 
