@@ -3,11 +3,13 @@
 
 html {
     box-sizing: border-box;
+    height: 100%;
 }
 
 body {
     background-color: #a0cbe4;
     margin: 0;
+    height: 100%;
 }
 
 * {
@@ -61,10 +63,6 @@ a {
     text-align: center;
 }
 
-html, body {
-    height: 100%;
-}
-
 body {
     display: flex;
     flex-direction: column;
@@ -74,11 +72,7 @@ main {
     flex: 1 0 auto;
 }
 
-footer {
-    flex-shrink: 0;
-}
-
-/* Navbar ---------------------------- */
+/* Global Features ---------------------------- */
 nav {
     background-color: #a0cbe4;
     padding: 0 20px;
@@ -121,13 +115,12 @@ nav {
     vertical-align: top;
 }
 
-/* Footer ---------------------------- */
-
 footer {
     background-color: #0c222f;
     padding: 5px 10px;
     bottom: 0;
     color: #a0cbe4;
+    flex-shrink: 0;
 }
 
 footer ul {
@@ -151,7 +144,6 @@ footer ul {
 
 #home-img {
     background: #194864 url('../media/heroimage.png') no-repeat right bottom;
-    /* width: 100vw; */
     height: 80vh;
     background-size: auto 100%;
 }
@@ -162,21 +154,8 @@ footer ul {
     flex-direction: column;
 }
 
-#img-overlay {
-    width: 70vw;
-    background-color: rgba(153, 194, 218, 0.7);
-    position: absolute;
-    bottom: 10%;
-    right: 12.5vw;
-}
-
-#img-overlay p {
-    text-align: center;
-}
-
 .blue-button {
     border-radius: 25px;
-    /* width: 125px; */
     margin: auto;
     padding: 15px;
     text-align: center;
@@ -190,7 +169,6 @@ footer ul {
 
 .blue-button:hover {
     border-radius: 25px;
-    /* width: 125px; */
     margin: auto;
     padding: 15px;
     text-align: center;
@@ -202,18 +180,6 @@ footer ul {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.blue-button a {
-    text-decoration: none;
-    color: #1C1F36;
-}
-
-.blue-button a:hover {
-    text-decoration: none;
-    color: #84B2CD;
-}
-
-/* About */
-
 #about {
     display: flex;
     flex-direction: row;
@@ -222,7 +188,6 @@ footer ul {
 }
 
 #about h3 {
-    /* font-weight: bold; */
     text-decoration: underline double 1px;
 }
 
@@ -233,9 +198,7 @@ footer ul {
 
 #skills {
     background-color: #a0cbe4;
-    /* padding: 10px; */
     flex: 33%;
-    /* border-top: 1px double #BDF6F7; */
 }
 
 #skills>ul {
@@ -252,10 +215,9 @@ footer ul {
     color: #1C1F36;
 }
 
-/* CONTACT -------------------------------  */
+/* Contact Page -------------------------------  */
 #contact-bg {
     background: #194864 url('../media/heroimage-mirrored.png') no-repeat left bottom;
-    /* width: 100vw; */
     height: 90vh;
     background-size: auto 100%;
 }
@@ -276,7 +238,6 @@ footer ul {
 
 .signup-form>h2 {
     color: #fafafa;
-    /* margin-bottom: 20px; */
 }
 
 .text-input {
@@ -310,7 +271,6 @@ footer ul {
     border-radius: 25px;
     padding: 15px;
     text-align: center;
-    /* font-size: 100%; */
     background-color: #a02424;
     border: 0 solid;
     color: #f7bdbd;
@@ -325,31 +285,19 @@ footer ul {
 }
 
 /* Services page ---------------------------- */
-
 #services-bg {
     background: #194864 url('../media/services-bg.webp') no-repeat center;
-    /* width: 100vw; */
     height: 10vh;
     background-size: auto 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.courses-offers h3 {
-    /* font-weight: bold; */
-    text-decoration: underline double 1px;
-}
-
-.recruitment h3 {
-    /* font-weight: bold; */
-    text-decoration: underline double 1px;
 }
 
 .courses-offers {
-    /* padding: 100px 0; */
     margin: auto;
     width: 85vw;
+}
+
+.courses-offers h2 {
+    text-decoration: underline double 1px;
 }
 
 .courses-offers a {
@@ -384,25 +332,14 @@ td {
     width: 85vw;
 }
 
-.recruitment>ul {
+.recruitment h2 {
+    text-decoration: underline double 1px;
+}
+.recruitment ul {
     list-style-position: inside;
 }
 
-/* @media screen and (min-width: 470px) {
-    h2 {
-        font-size: 30px;
-    }
-    h3 {
-        font-size: 25px;
-    }
-    p {
-        font-size: 16px;
-    }
-    ul li {
-        font-size: 16px;
-    }
-} */
-
+/* Media Queries --------------------------- */
 @media screen and (max-width: 768px) {
     #about {
         display: flex;
