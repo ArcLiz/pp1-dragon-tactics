@@ -77,18 +77,117 @@ The font choices was made by doing a google search for fonts that pair well. How
 
 ## Features
 ---
-### Global Features
-Nav, Footer
-### Home page Features
-About Skills
-### Services Page Features
-Class Table, Recruitment Information
-### Contact Page Features
-Contact Form with Reset and Submit buttons
-### Future Enhancements
-Making the Contact Form actually e-mail Seraphina
-I'd like to further cement the sarcastic "she's totally bonkers"-vibe by taking pictures of myself or other people training dogs etc, and photoshop them in an incredibly obvious way as a gallery feature showing off "her experience in dragon training"
+This site is built with a "mobile first" approach and all features scale from 320px up to any desktop size. <br>
+All sections of the site has a maximum width of 1000px, to not overwhelm and stretch important content too far out in the periferals, should a user be using a very wide screened monitor.
+### **Global Features**
+#### **Navbar**
+The navbar is featured on every page and attached to the top - for easy access and easy readability.
+
+![Screenshot of Navbar](docs/images/navbar.png)
+- Simple Logo with the company name
+- Links to Home, Services and Contact pages
+
+#### **Footer**
+The footer is featured on every page attached to the bottom - for easy access and easy readability.
+
+![Screenshot of Footer](docs/images/footer.png)
+- Encouragement to keep in contact via social media
+- Links to social media sites Facebook, Youtube and TikTok
+
+### **Home page Features**
+The Home page is the main landing page of the site, to set the tone and initially spark user interest.<br>
+With a welcoming, sleek and inspiring design of high contrast blue tones and an inspiring hero image, users are invited to keep reading.
+
+The page is responsive and turns from a row based structure to being divided into two columns on larger devices,<br>
+to keep in line with the company and user set goals set forth in this document.
+
+```
+USER STORY
+
+As a first time visitor, I want to find easy-to-read information about dragon training
+```
+
+IMPLEMENTATION:
+#### **Hero Image**
+A hero image depicting a dragon, to set the tone of the site. 
+
+![Screenshot of Home Landing Page Hero Image](docs/images/heroimagescrsht.png)
+
+#### **About-Section**
+The about section contains background history of Seraphina and the company Dragon Tactics.<br>
+
+![Screenshot of About section](docs/images/about.png)
+- Information divided into 4 sub sections, to keep the information light and easy to read.
+- Link to a downloadable copy of Seraphina's Official Certification, to aid in credibility.
+
+#### **Skills**
+![Screenshot of Skills section](docs/images/skills.png)
+- Photograph of Seraphina
+- Explanation and listing of specific skills she has aquired.
+
+### **Services Page Features**
+The Service page contains all the services and offers the company has for the user.
+
+```
+USER STORY
+
+As a first time visitor, I want to know what Dragon Tactics can offer me
+```
+
+IMPLEMENTATION:
+#### **Popular Courses Section**
+![Screenshot of Popular Courses](docs/images/popcourses.png)
+- Information regarding availability and type of courses on offer by the company
+- Link to a downloadable course catalogue for the full list of available courses
+- Table containing the Name and Quick Description of the 5 most popular courses on offer
+
+#### **Recruitment Section**
+![Screenshot of Recruitment Section](docs/images/recruitment.png)
+- Recruitment information
+- List of challenges within the profession
+
+
+### **Contact Page Features**
+The Contact page contains a contact form that allows the user to contact Seraphina, for varius reasons.
+
+```
+USER STORY
+
+As a first time visitor, I want to be able to contact Dragon Tactics
+```
+
+IMPLEMENTATION:
+#### **Contact Form**
+![Screenshot of Contact Form](docs/images/contactform.png)
+- Form that asks the user to submit name, e-mail address, their reason for contacting along with a message to send.
+- All fields are required and the form will not submit unless all is filled in, to avoid misunderstandings in future communications.
+- Reset button to return all fields to their empty starting state.
+- Submit button to send the users message.
+
+### **Other Pages**
+The site contains two additional pages made to increase usability and make the user experience more enjoyable.
+
+#### **404 Page**
+- This page is shown when a user navigates to an unknown/broken page on the site.<br>
+- The page contains identical header and footer elements as the sites main pages so that the user will be able to navigate back to the site without the use of the browser back button.
+- The page informs the user that they have ended up on a broken page/page that doesn't exist.
+
+![Screenshot of 404](docs/images/404.png)
+
+#### **Thank You Page**
+- This page is shown when a user successfully submits the contact form.
+- The page contains identical header and footer elements as the sites main pages so that the user will be able to navigate back to the site without the use of the browser back button.
+- The page informs the user about the time frame in which they can expect Seraphina to reply to their messages.
+
+![Screenshot of Thank You](docs/images/thankyou.png)
+
+### **Future Enhancements**
+- Upgrading the Contact Form to automatically e-mail Seraphina with the message the user sent. 
+- Adding a Gallery with images of Seraphina in action when doing her Dragon Training magic.
+- Personalize 404 and Thank You pages with a picture of Seraphina.
+
 ## Technologies
+---
 HTML, CSS, GitHub, Gitpod, Font Awesome, balsamiq, Photoshop CC, Medibang PRO, Lensa
 ## Testing
 Responsiveness? 
