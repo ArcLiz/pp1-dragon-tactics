@@ -1,5 +1,5 @@
 # Dragon Tactics
-[Click here to visit the published site.](https://github.com/ArcLiz/dragon-tactics)
+[Click here to visit the published site.](https://arcliz.github.io/dragon-tactics/)
 
 ![Responsive Screenshot Mockup](docs/images/mockup.png)
 
@@ -168,41 +168,96 @@ IMPLEMENTATION:
 The site contains two additional pages made to increase usability and make the user experience more enjoyable.
 
 #### **404 Page**
-- This page is shown when a user navigates to an unknown/broken page on the site.<br>
-- The page contains identical header and footer elements as the sites main pages so that the user will be able to navigate back to the site without the use of the browser back button.
-- The page informs the user that they have ended up on a broken page/page that doesn't exist.
+- This page is shown when a user navigates to an unknown/broken page on the site
+- The page contains identical header and footer elements as the sites main pages so that the user will be able to navigate back to the site without the use of the browser back button
+- The page informs the user that they have ended up on a broken page/page that doesn't exist
 
 ![Screenshot of 404](docs/images/404.png)
 
 #### **Thank You Page**
-- This page is shown when a user successfully submits the contact form.
-- The page contains identical header and footer elements as the sites main pages so that the user will be able to navigate back to the site without the use of the browser back button.
-- The page informs the user about the time frame in which they can expect Seraphina to reply to their messages.
+- This page is shown when a user successfully submits the contact form
+- The page contains identical header and footer elements as the sites main pages so that the user will be able to navigate back to the site without the use of the browser back button
+- The page informs the user about the time frame in which they can expect Seraphina to reply to their messages
 
 ![Screenshot of Thank You](docs/images/thankyou.png)
 
 ### **Future Enhancements**
-- Upgrading the Contact Form to automatically e-mail Seraphina with the message the user sent. 
-- Adding a Gallery with images of Seraphina in action when doing her Dragon Training magic.
-- Personalize 404 and Thank You pages with a picture of Seraphina.
+- Upgrading the Contact Form to automatically e-mail Seraphina with the message the user sent.
+- Adding a Gallery with images of Seraphina in action when doing her Dragon Training magic
+- Personalize 404 and Thank You pages with a picture of Seraphina
+
+## Testing
+---
+### Feature Testing
+Responsiveness, Functionability, Accessibility
+### Validator
+HTML, CSS
+### Lighthouse
+Printscreens
+### Compability
+List
+## Deployment
+---
+The site was deployed by using GitHub pages. The steps to deploy are as follows:
+
+*GitHub Pages Deployment*<br>
+1. Open your projects GitHub repository (Please note that the project needs to be public in order for you to be able to deploy it)
+2. Navigate to the Settings tab
+3. Navigate to the Pages tab
+4. Under the GitHub Pages from the source section drop-down menu, select the main branch
+5. Once selected, it may take a few minutes for the project to go live
+
+[View the live project here.](https://arcliz.github.io/dragon-tactics/)<br>
+
+*Forking the GitHub Repository*<br>
+
+If you wish to make a copy of the repository to your own GitHub account, you can do so by "Forking" it.<br>
+This will give you a full working copy of the project, but ensures that no changes you make affect the original repository.
+1. Navigate to the GitHub repository while logged into your account
+2. In your top right, click the Fork button
+3. Chose the name you want to give your version of the repository *(automatically filled in as the original project name)*
+4. Click the green "Create fork" button
+
+*Cloning the GitHub Repository*<br>
+
+If you wish to download a local version of the repository to be worked on, you can do that too. That is referred to as "Cloning".<br>
+The steps to cloning the repository are as follows:
+1. Navigate to the GitHub repository while logged into your account
+2. Click the <>Code dropdown button
+3. Make sure that HTTPS is chosen, then copy the repository link to the clipboard<br>
+*Git must be installed for the next steps to work*<br>
+4. Open the IDE you're working in
+5. Type "git clone (the url link you just copied)" into the terminal
+
+The project will now be on your local machine to use or save. This can be a good way to back up versions of your own work too.
 
 ## Technologies
 ---
-HTML, CSS, GitHub, Gitpod, Font Awesome, balsamiq, Photoshop CC, Medibang PRO, Lensa
-## Testing
-Responsiveness? 
-Accessibility?=
-Lighthouse?
-Functional
-Bunch of texts
-## Validator Testing
-Bla
-## Deployment
-The site was deployed to GitHub pages with these steps...
-Live link...
+- **HTML5** - Used as the main language in regards to the structure of the site
+- **CSS** - Used to style the site, through a custom made external CSS file
+- [Gitpod](https://gitpod.io/) - Used to develop the project
+- [GitHub](https://github.com/) - Used to store the code throughout the development
+- **Git** - Used for version control during the different project stages.
+- [Font Awesome](https://fontawesome.com/) - Used to obtain the social media icons found in the page footer
+- [Favicon.io](https://favicon.io/) - Used to generate the favicon used for the site
+- [MedibangPRO](https://medibangpaint.com/en/pc/) - Used to sketch the project wireframes as well as developing the color theme for the project
+- [W3Schools](https://www.w3schools.com/) - Used to find solutions and inspiration for the creation of both HTML and CSS elements site wide
+
 ## Credits
-Länkar och sånt
-### Content
-Text och sånt skapat av mig
-### Media
-Bild sources
+---
+### **Content**
+- All text content was created and assessed by me, with inspiration boosts from my fellow classmate Pontus Hellström when my own imagination started to waver
+- The sticky footer code (albeit slightly altered) was found on [CSSTricks](https://css-tricks.com/couple-takes-sticky-footer/)
+- The contact form was inspired by [Code Institute](https://codeinstitute.net/) and our walk through project "Love Running"
+
+### **Media**
+- Image used as hero image on landing page and background image for contact for is originally from [Wallpapercave](https://wallpapercave.com/w/uwp1954149)
+- Image used for "Seraphinas Portrait" is generated by using my face in an AI engine app called [Lensa](https://apps.apple.com/us/app/lensa-ai-photo-video-editor/id1436732536)
+- Certificate of Education for Seraphina was generated via [Photofunia](https://photofunia.com/effects/diploma)
+- All images have been edited using [Photoshop](https://www.adobe.com/products/photoshop.html), in order to suit the needs of the site 
+
+### **Acknowledgements**
+I would like to thank the people that made this project possible:
+- My course mentor Daisy Mc Girr, who has been guiding me through the project with suggestions and helpful information
+- My fellow classmate Linus Berger, who has been a great friend to bounce ideas and troubleshooting issues and features, as well as a huge help with keeping morale and spirits up
+- The community on the Code Institute Slack Channel for always having answers to the questions that arose during the project
