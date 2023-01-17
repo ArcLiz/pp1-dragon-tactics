@@ -188,18 +188,51 @@ The site contains two additional pages made to increase usability and make the u
 
 ## Testing
 
-### Feature Testing
+### **Feature Testing**
 
 ![Screenshot of Testing Table](docs/images/sitetesting.png)
 
-### Validator
-- HTML - validated using the official W3C Markup Validator. [See Results here.](https://validator.w3.org/nu/?doc=https%3A%2F%2Farcliz.github.io%2Fdragon-tactics%2F)
-- CSS - validated using the official W3C Jigsaw CSS Validation Service. [See Results here.](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Farcliz.github.io%2Fdragon-tactics%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+### **Validator Testing**
+- HTML - validated using the official W3C Markup Validator. 
+    - Index Page Results<br> ![Screenshot of HTML Validation Results Index](docs/images/validation-html-index.png)
+    - Services Page Results<br> ![Screenshot of HTML Validation Results Services](docs/images/validation-html-services.png)
+    - Contact Page Results<br> ![Screenshot of HTML Validation Results Contact](docs/images/validation-html-contact.png)
+    - 404 Page Results<br> ![Screenshot of HTML Validation Results 404](docs/images/validation-html-404.png)
+    - Thank You Page Results<br> ![Screenshot of HTML Validation Results Thank You](docs/images/validation-html-thankyou.png)
+- CSS - validated using the official W3C Jigsaw CSS Validation Service.
+    - Site Results<br> ![Screenshot of CSS Validation Results](docs/images/validation-css.png)
 
-### Lighthouse
-To be continued...
-### Compability
-To be continued...
+### **Lighthouse**
+The site has been tested using the Lighthouse function within Chrome Developer Tools.
+
+![Screenshot of Lighthouse results on index page](docs/images/lh-index.png)
+![Screenshot of Lighthouse results on services page](docs/images/lh-services.png)
+![Screenshot of Lighthouse results on contact page](docs/images/lh-contact.png)
+
+### **Wave**
+The site has been continuously tested using the [Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/) to ensure the site is accessible to individuals with impairments. 
+
+![Screenshot of Wave Results](docs/images/wave-results.png)
+
+### **Compability**
+The site is fully responsive and all features and functions has been tested on the following devices and web browsers:
+
+- iPhone SE/12
+    - Google Chrome
+    - Safari
+- iPad 3/19
+    - Google Chrome
+    - Safari
+- Macbook Air
+    - Google Chrome
+    - Safari
+    - Firefox
+- Windows Desktop
+    - Google Chrome
+    - Edge
+    - Firefox
+    - Opera
+
 ## Deployment
 
 The site was deployed by using GitHub pages. The steps to deploy are as follows:
