@@ -144,7 +144,7 @@ footer ul {
 }
 
 #home-img {
-    background: #194864 url('../media/heroimage.png') no-repeat right bottom;
+    background: #194864 url('../media/heroimage.webp') no-repeat right bottom;
     height: 80vh;
     background-size: auto 100%;
 }
@@ -218,7 +218,7 @@ footer ul {
 
 /* Contact Page -------------------------------  */
 #contact-bg {
-    background: #194864 url('../media/heroimage-mirrored.png') no-repeat left bottom;
+    background: #194864 url('../media/heroimage-mirrored.webp') no-repeat left bottom;
     height: 90vh;
     background-size: auto 100%;
 }

@@ -4,7 +4,7 @@
 ![Responsive Screenshot Mockup](docs/images/mockup.png)
 
 ## Introduction
----
+
 Dragon Tactics is a site made to present and advertise Seraphina Goldenstone and the LLC Dragon Tactics.<br>
 The site is created to provide relevant information to users about what the company is, the services the company offers as well as how to get in touch with the company.
 
@@ -25,7 +25,7 @@ From a user standpoint, the goals with the website are:
 3. As a first time visitor, I want to be able to contact Dragon Tactics
 
 ## UX
----
+
 ### **Strategy**
 Due to the nature of the field, the company has met opposition in their past, which proved challenging in the initial planning phase of the project. 
 Considering the lack of dragon believers in the world, individuals tend to doubt the legitimacy of the company and their services.
@@ -76,7 +76,7 @@ For many, the thought of dragons bring thoughts of fire and destruction, which w
 The font choices was made by doing a google search for fonts that pair well. However, I found no suggested pairing that suited my tastes, so I made my own combination of *Unica One* for headings and *Lato* for all bread text.
 
 ## Features
----
+
 This site is built with a "mobile first" approach and all features scale from 320px up to any desktop size. <br>
 All sections of the site has a maximum width of 1000px, to not overwhelm and stretch important content too far out in the periferals, should a user be using a very wide screened monitor.
 ### **Global Features**
@@ -187,17 +187,21 @@ The site contains two additional pages made to increase usability and make the u
 - Personalize 404 and Thank You pages with a picture of Seraphina
 
 ## Testing
----
+
 ### Feature Testing
-Responsiveness, Functionability, Accessibility
+
+![Screenshot of Testing Table](docs/images/sitetesting.png)
+
 ### Validator
-HTML, CSS
+- HTML - validated using the official W3C Markup Validator. [See Results here.](https://validator.w3.org/nu/?doc=https%3A%2F%2Farcliz.github.io%2Fdragon-tactics%2F)
+- CSS - validated using the official W3C Jigsaw CSS Validation Service. [See Results here.](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Farcliz.github.io%2Fdragon-tactics%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
 ### Lighthouse
-Printscreens
+To be continued...
 ### Compability
-List
+To be continued...
 ## Deployment
----
+
 The site was deployed by using GitHub pages. The steps to deploy are as follows:
 
 *GitHub Pages Deployment*<br>
@@ -232,7 +236,7 @@ The steps to cloning the repository are as follows:
 The project will now be on your local machine to use or save. This can be a good way to back up versions of your own work too.
 
 ## Technologies
----
+
 - **HTML5** - Used as the main language in regards to the structure of the site
 - **CSS** - Used to style the site, through a custom made external CSS file
 - [Gitpod](https://gitpod.io/) - Used to develop the project
@@ -241,10 +245,11 @@ The project will now be on your local machine to use or save. This can be a good
 - [Font Awesome](https://fontawesome.com/) - Used to obtain the social media icons found in the page footer
 - [Favicon.io](https://favicon.io/) - Used to generate the favicon used for the site
 - [MedibangPRO](https://medibangpaint.com/en/pc/) - Used to sketch the project wireframes as well as developing the color theme for the project
+- [TinyPNG](https://tinypng.com/) - Used to compress image files for faster load times
 - [W3Schools](https://www.w3schools.com/) - Used to find solutions and inspiration for the creation of both HTML and CSS elements site wide
 
 ## Credits
----
+
 ### **Content**
 - All text content was created and assessed by me, with inspiration boosts from my fellow classmate Pontus Hellström when my own imagination started to waver
 - The sticky footer code (albeit slightly altered) was found on [CSSTricks](https://css-tricks.com/couple-takes-sticky-footer/)
