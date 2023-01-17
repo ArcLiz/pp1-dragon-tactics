@@ -76,6 +76,7 @@ main {
 nav {
     background-color: #a0cbe4;
     padding: 0 20px;
+    height: 85px;
 }
 
 .navbar {
@@ -182,7 +183,7 @@ footer ul {
 
 #about {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     max-width: 1200px;
     margin: auto;
 }
@@ -343,6 +344,6 @@ td {
 @media screen and (max-width: 768px) {
     #about {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 }
